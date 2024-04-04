@@ -78,13 +78,13 @@ nav button{
 }
 .computerImg img {
     height: 62vh;
-    width: 30vw;
+    width: 28vw;
     border-radius: 20px;
 }
 .textpart textarea {
     border-radius: 6px;
     height: 62vh;
-    width: 80vw;
+    width: 59vw;
     resize: none;
     border: none;
     background-color: #e5d8ff;
