@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #817dfc;
+    color: #fff;
+    padding: 1vw 4vw;    
+    align-items: center;
+    margin-top: -20vh;
+    z-index: 1;
+}
+nav h2 {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 4vw;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+nav .bar i {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+nav input {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    padding: 5px 15px;
+    border: none;
+}
+nav button{
+    position: absolute;
+    top: 2.1vw;
+    right: 20vw;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.1vw;
+    color: #b3b0b0;
+}
+.social{
+    position: sticky;
+    top: 11vw;
+    float: right;
+}
+.social img{
+    height: 14vw;
+}
+.hero{
+    margin-top: 20vh;
+    display: flex;
+    padding: 0 5vw;
+    gap: 2vw;
+}
+.computerImg img {
+    height: 62vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+.textpart textarea {
+    border-radius: 6px;
+    height: 62vh;
+    width: 80vw;
+    resize: none;
+    border: none;
+    background-color: #e5d8ff;
+    padding: 10px 10px;
+    font-size: large;
+   
+}
+.textpart textarea::placeholder {
+    color: #999;
+    white-space: pre-wrap;
+}  
+
+.cards {
+    margin: 7vh 5vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card {
+    background-color: rgb(0, 0, 0);
+    height: 15vh;
+    width: 18vw;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 5vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card h3, p {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.card h3 {
+    font-size: x-larger;
+    font-weight: 600;
+}
+.card p {
+    font-size: large;
+    font-weight: 600;
+}
+.lastbox{
+    padding-bottom: 10vh;
+}
+.details {
+    background-color: #483eff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 2vw ;
+    margin: 2vh 5vw;
+    border-radius: 10px;    
+}
+.info-btn {
+    height: 50vh;
+    border-radius: 10px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info {
+    width: 67vw;
+    border-radius: 10px;
+    background-color: white;
+    color: #04285a;
+}
+.info ul {
+    list-style: none;
+}
+.info h2 {
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 5vh;
+}
+.info li {
+    padding-left: 45px;
+    padding-top: 15px;
+    font-size: 3vh;
+    font-weight: 400;
+}
+.info button {
+    height: 6vh;
+    width: 8vw;
+    margin-top: 5vh;
+    margin-left: 55vw;
+    border-radius: 5px;
+    font-size: 3vh;
+    color: white;
+    background-color: black;
+}
+.info button img {
+    width: 1.5vw;
+}
+.info-btn button{
+    height: 10vh;
+    width: 15vw;
+    border-radius: 15px;
+    font-size: 3vh;
+    background-color:transparent;
+    color: white;
+    font-weight: 600;
+    border:3px solid white;
+}
+
+.info-btn button:hover {
+    background-color: #bce0f6;
+    color: black;
+    border: none;
+}
+ 
+.help{
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 10px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    padding: 2px;
+    width: 60px;
+    height: 60px;
+}
+.help img{
+    width: 60px;
+    height: 60px;
+}
